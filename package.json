@@ -1,0 +1,23 @@
+{
+  "name": "card-scanner",
+  "version": "1.0.0",
+  "description": "Card scanning package for MiFare cards",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel *.js --presets babel-preset-es2015 --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "author": "Webkom <webkom@abakus.no>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "lodash.debounce": "4.0.8",
+    "lodash.memoize": "4.1.2",
+    "serialport": "6.0.4"
+  }
+}
