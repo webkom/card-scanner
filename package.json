@@ -1,6 +1,6 @@
 {
   "name": "card-scanner",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Card scanning package for MiFare cards",
   "main": "lib/index.js",
   "scripts": {
@@ -18,6 +18,6 @@
   "dependencies": {
     "lodash.debounce": "4.0.8",
     "lodash.memoize": "4.1.2",
-    "serialport": "6.0.4"
+    "serialport": "8.0.6"
   }
 }
